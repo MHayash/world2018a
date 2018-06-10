@@ -1,6 +1,5 @@
 var W = 640;
 var H = 480;
-alert('a');
 function setup() {
   createCanvas(640, 480);
   background(222, 222, 222);fill(0);
