@@ -9,6 +9,6 @@ function setup() {
   // origin
   strokeWeight(5);point(0, 0);
   strokeWeight(1);fill(255);
-  init();
+  startup();
 }
 
