@@ -34,6 +34,7 @@ function draw() {
   }
   frameCount += 1;
   if (frameCount < 100) {
+    background(222,222,222);
     noStroke(0);
     fill(0);
     text('' + frameCount, 300, 240);
