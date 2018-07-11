@@ -41,6 +41,7 @@ function draw() {
     return;
   }
   noStroke();
+  stroke(0);
   text('Level:' + Level, 0, 20);
 
   if (level == -1) {
