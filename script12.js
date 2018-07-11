@@ -41,7 +41,7 @@ function draw() {
     return;
   }
   noStroke();
-  stroke(0);
+  fill(0);
   text('Level:' + Level, 0, 20);
 
   if (level == -1) {
@@ -60,13 +60,13 @@ function draw() {
       for (var e of enemyBullets) {
         e.x = s3x;
         e.y = s3y;
-        e.draw();
+        //e.draw();
       }
     } else if (i == 3) {
       for (var e of enemyBullets) {
         e.x = s4x;
         e.y = s4y;
-        e.draw();
+        //e.draw();
       }
     }
 
