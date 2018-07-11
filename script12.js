@@ -32,7 +32,6 @@ function draw() {
   if (gameover) {
     return;
   }
-  paint();
   frameCount += 1;
   if (frameCount < 100) {
     noStroke(0);
@@ -40,6 +39,7 @@ function draw() {
     text('' + frameCount, 300, 240);
     return;
   }
+  paint();
   noStroke();
   fill(0);
   text('Level:' + Level, 0, 20);
