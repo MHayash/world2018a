@@ -35,7 +35,7 @@ function draw() {
   paint();
   frameCount += 1;
   if (frameCount < 100) {
-    stroke(0);
+    noStroke(0);
     fill(0);
     text('' + frameCount, 300, 240);
     return;
